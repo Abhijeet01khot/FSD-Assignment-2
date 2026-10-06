@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixel To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="game-screen">
+
+    <h1>◆ QUEST TASKS ◆</h1>
+
+    <div class="todo-card">
+
+      <div class="card-header">
+        DOM TO-DO LIST
+      </div>
+
+      <div class="todo-content">
+
+        <div class="input-row">
+          <input
+            type="text"
+            id="taskInput"
+            placeholder="ENTER NEW TASK..."
+          >
+
+          <button id="addTaskBtn">
+            +
+          </button>
+        </div>
+
+        <div class="task-counter">
+          QUESTS REMAINING: <span id="taskCount">0</span>
+        </div>
+
+        <ul id="taskList"></ul>
+
+      </div>
+
+      <div class="card-footer">
+        POWERED BY JAVASCRIPT DOM
+      </div>
+
+    </div>
+
+    <p class="footer-text">
+      ADD • COMPLETE • DELETE YOUR QUESTS
+    </p>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
